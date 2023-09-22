@@ -70,3 +70,9 @@ cars_1 = ['audi','lexus','BMW'] #make one list
 cars_2 =['Maserati','Toyota'] # make a second list
 
 CARS = cars_1 + cars_2 # extend the list by joining them
+
+
+x = 8
+y = 3
+
+print(x%y)

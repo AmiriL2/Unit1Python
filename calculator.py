@@ -35,5 +35,7 @@ elif input == 'expo':
     print(uno ** dos)
 elif input == 'remainder':
     print(uno % dos)
+    #if the user chooses of the options then this is the code that will go through to find out
+    # which one was chosen and how to find the answer to the equation
 else: 
-    print("Invalid Input")
+    print("Invalid Input")# if the user inserts something that was not given as an option, print out that the input is invalid

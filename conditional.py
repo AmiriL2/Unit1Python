@@ -78,3 +78,4 @@ elif a != b and b != c and c != a:
 else: 
     print("not a triangle")#if none of these are true this is not a triangle
 
+

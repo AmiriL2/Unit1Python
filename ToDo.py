@@ -41,12 +41,12 @@ while True:
     print("")
 
     #print what the current todos are after something was added or removed
-    print("your current todos are: " )
+    print("Your current todos are: " )
     X = 1 
 
     #this allows it to count the number of items in the list 
     for T in ToDo:
-        
+
         #X is converted to a string so that it is able to be printed out
         #T is printed so that it prints whatever is in the list 
         print(str(X) + ") " + T)

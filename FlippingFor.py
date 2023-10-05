@@ -41,6 +41,7 @@ sentence = "This is a sentence"
 #split would make all the sentence into just words
 words = sentence.split()
 
+#for loop to make it print out the word length
 for h in words:
     print("Word Length: ", len(h))
 

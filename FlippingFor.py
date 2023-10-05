@@ -41,17 +41,8 @@ sentence = "This is a sentence"
 #split would make all the sentence into just words
 words = sentence.split()
 
-#list used 
-wordlength = []
-
-#for loop so that the length of the list is is stored
-for word in words:
-
-    #adds word to list
-    wordlength.append(len(word))
-
-#print out the ammount of letters in the sentence for each word
-print("Word Length: ", wordlength)
+for h in words:
+    print("Word Length: ", len(h))
 
 """
 Excercise 4:

@@ -1,4 +1,4 @@
-ToDo = ["get cash", "spend cash", "cry"]
+ToDo = [""]
 
 #condition has to be true to reprint when done
 while True:

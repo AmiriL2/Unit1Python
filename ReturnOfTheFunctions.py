@@ -4,13 +4,13 @@ Task 1: Calculate the Square of a Number
 Write a function that takes an integer as an argument and returns its square.
 """
 #define square root as a
-def square_root(a):
+def square(a):
 
     #return the square of a number
     return a**2
 
 #set the number equal to something
-x = square_root(16)
+x = square(16)
 
 #print the result
 print(x)

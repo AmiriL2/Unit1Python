@@ -22,6 +22,6 @@ else:
 try:
     print("Fun Fact! Your age divided by your favorite number is: " , age / faveNum)
 
-#if the error runs then this happens
+#if the error runs then this happen
 except:
    print("This numbver cannot be divided by 0, pleae select a different number")

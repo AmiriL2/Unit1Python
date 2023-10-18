@@ -9,11 +9,15 @@ def square(a):
     #return the square of a number
     return a**2
 
-#set the number equal to something
-x = square(16)
+#if the function = 256, the assert will not return anything/ function will fun normally
+assert square(16) == 256
 
 #print the result
-print(x)
+print(square(16))
+
+#16 squared is not 256 so assertionerror will return
+assert square(16) == 265
+
 
 """
 Task 2: Calculate the Area of a Rectangle:
@@ -25,11 +29,14 @@ def area(l,w):
     #return the length times the width
     return l * w
 
-#set the value of l and w
-y = area(5,6)
+#if function = 30, function will not return an error and proceed normally
+assert area(5,6) == 30
+
+#5 * 6 does not equal 27 so assertion error will return
+assert area(5,6) == 27
 
 #print the result
-print(y)
+print(area(5,6))
 
 """
 Task 3: Convert Temperature from Celsius to Fahrenheit:
@@ -38,9 +45,14 @@ the equivalent temperature in Fahrenheit using the correct formula
 """
 def conversion(C):
     return (C * 1.8) + 32
-F = conversion(10)
-print("The current temperature is:", F,"°" )
 
+#function is equal to 50, so functuon will continue as normal
+assert conversion(10) == 50
+
+print("The current temperature is:", conversion(10),"°" )
+
+#10 degrees C is not 49 degrees F so assertion error will return
+assert conversion(10) == 49
 
 """
 Task 4: Calculate the Average of Numbers:
@@ -50,13 +62,12 @@ and returns the average (mean) of those numbers.
 #define
 def average(A):
 
-    #add all numbers together
-    total = sum(A)
+    #average function will return 44 so no error will occur and will proceed as normal
+    assert average([30, 66,36]) == 44
     
     #return total over nuber of items in list
-    return total / len(A)
+    return sum(average([30, 66,36])) / len(A)
 
-#print list of numbers
-print(average([34, 667,35]))
-
+#average of 30, 66, and 36 is not 45, so assertion error will return
+assert average([30, 66,36]) == 45
 

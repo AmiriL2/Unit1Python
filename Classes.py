@@ -14,8 +14,10 @@ class Person:
         self.name = name
         self.age = age
         
+#give a value to the variable "Amiri"
 Amiri = Person("Amiri Layne", 17)
 
+#print out the end result
 print("Hi my name is", Amiri.name, "and I am", Amiri.age, "years old")
 """
 Task 2: Animals Speak
@@ -64,19 +66,32 @@ Include methods for depositing and withdrawing money, which should modify the ba
 
 Test these methods with instances of the class.
 """
+# create a class called BankAccount
 class BankAccount: 
+
+   # give it attributes like "Name" and "Balance"
     def __init__(self, owner, balance):
         self.balance = balance
         self.owner = owner
+
+    #define the balance of the bank account
     def balances(self): 
+        #print out what your current balance is
         print("Your current balace is: ", self.balance)
+    
+    #give value to the deposite option
     def deposit(self, depo):
 
+        #deposit = add in so subtract from balance
         self.balance = self.balance + depo
+    #give value to withdraw option
     def withdraw(self, withdraw):
+        #withdraw = take out so subtract from balance
         self.balance = self.balance - withdraw
+         #print out what your current balance is
         print("Your new balance is: ", self.balance)
 
+#give value to the bank account (Name and Balance)
 AmiriBank = BankAccount("Amiri", 13204.23)
 
 AmiriBank.balances()
